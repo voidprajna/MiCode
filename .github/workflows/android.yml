@@ -32,7 +32,11 @@ jobs:
       - name: Generate Gradle Wrapper
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: wrapper --gradle-version 8.2
+          gradle-version: '8.2'
+          arguments: wrapper
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
 
       - name: Build Debug APK with Gradle
         run: ./gradlew :app:assembleDebug --stacktrace --info
