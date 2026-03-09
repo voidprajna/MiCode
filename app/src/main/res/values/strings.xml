@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiCode</string>
+    <string name="title">小米拨号秘码</string>
+    <string name="fallback_title">拨号回退</string>
+    <string name="fallback_desc">发送广播失败时尝试打开拨号预填</string>
+    <string name="search_hint">搜索代码或描述</string>
+    <string name="send_success">已发送 SECRET_CODE 广播</string>
+    <string name="dial_fallback">已打开拨号界面进行回退</string>
+    <string name="send_failed">发送失败，尝试拨号回退或需要系统权限</string>
+</resources>
